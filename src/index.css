@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.stylesheet {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.background-image {
+  background-image: url(https://images.unsplash.com/photo-1562832135-14a35d25edef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MDUzMTV8MHwxfHNlYXJjaHwxMHx8bW9vbnxlbnwwfHx8fDE2NzU0MDUzMDc&ixlib=rb-4.0.3&q=80&w=1080);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  color: rgb(59, 53, 53);
+  
+}
+
+.header {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subheader {
+  font-size: 18px;
+  margin: 0;
+}
