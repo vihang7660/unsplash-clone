@@ -18,7 +18,8 @@ const initialState: InitialState = {
 
 let url = "";
 
-const clientID = "?client_id=jwJyoIQ8mlun1u84G9EV-jMin00keARLfRfYahdAmcY";
+/* const clientID = "?client_id=jwJyoIQ8mlun1u84G9EV-jMin00keARLfRfYahdAmcY"; */
+const clientID = "?client_id=f7N-c7ynV9x6FAE3c1mP35-_1uRQeFNKMYlRro55XGA";
 
 const mainUrl = `https://api.unsplash.com/photos/`;
 const searchUrl = `https://api.unsplash.com/search/photos/`;
