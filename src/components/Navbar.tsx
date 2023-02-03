@@ -6,8 +6,8 @@ export default function Navbar() {
   const ref = useRef<HTMLUListElement>(null);
 
   return (
-    <div className="flex items-center gap-5 text-sm text-gray-500">
-      <div className=" flex items-center gap-4 border-r border-gray-300 pr-5  ">
+    <div className="fixed top-[60px] flex w-full items-center gap-5 bg-white text-sm text-gray-500 py-3">
+      <div className=" flex items-center gap-4 border-r border-gray-300 pr-5 max-[700px]:hidden  ">
         <a className="hover:text-black" href="#">
           Editorial
         </a>
